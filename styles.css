@@ -150,3 +150,9 @@ article.panel h2 { font-size: 1.2rem; margin-top: 1.4rem; color: var(--mint); }
   .hero { padding-top: 2rem; }
   table { font-size: 0.92rem; }
 }
+
+/* Single Business Care card, not a multi-plan grid */
+.cards.feature-plan {
+  grid-template-columns: minmax(280px, 40rem);
+}
+.plan.feature .price { margin: 0.2rem 0 0.7rem; }
